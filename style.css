@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam";
+}
+
+
+body {
+    background: #f5f5f5;
+    color: #222;
+}
+
+.navbar ul li{
+    font-size: 16px;
+     font-family: "Be Vietnam";
+}
+
+.hero {
+    background: #e7cf77;
+    height: 500px;
+    padding: 40px 80px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+p{
+    font-size: 16px;
+    font-family: "Be Vietnam";
+}
+h4{
+    font-size: 18px;
+    font-family: "Be Vietnam";
+}
+.navbar ul {
+    display: flex;
+    /* gap: 30px; */
+    list-style: none;
+    /* JUSTIFY-CONTENT: SPACE-BETWEEN; */
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.hero-text h1 {
+    font-size: 78px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: "Zodiak";
+}
+
+
+
+.feature {
+    background: #111;
+    padding: 80px;
+}
+
+
+.feature-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.feature-img {
+    width: 600px;
+    border-radius: 4px;
+}
+
+
+.feature-card {
+    background: #000;
+    color: white;
+    padding: 30px;
+    max-width: 350px;
+}
+
+
+.feature-card h2 {
+    color: #e7cf77;
+    margin-bottom: 10px;
+    font-family:  "Zodiak";
+}
+
+
+.feature-card button {
+    margin-top: 15px;
+    padding: 13px 21px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: "Be Vietnam";
+    font-size: 18px;
+}
+
+
+
+.categories ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.categories ul li {
+    width: 25%;
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category{
+padding:20px;
+border-radius:10px;
+background:#f3f3f3;
+cursor:pointer;
+text-align:center;
+}
+.categories h4{
+cursor:pointer;
+padding-bottom:6px;
+}
+.photography1 img{
+width:24%;
+transition: transform 0.4s ease;
+cursor:pointer;
+position:relative;
+z-index:1;
+}
+.mb-2{
+    margin-bottom:10px;
+}
+.photography1 img:hover{
+transform: scale(1.5);
+z-index:10;
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+.categories h4.active{
+border-bottom:3px solid #000;
+}
+.categories{
+    background: #FDEEAA;
+}
+.border-bottom{
+    border-bottom:1px solid #000;
+}
+/* Hide categories initially */
+
+.category{
+display:none;
+background: #FDEEAA;
+}
+#advertisement{
+display:block;
+}
+.categories h4{
+cursor:pointer;
+margin-top:15px;
+font-size: 28px;
+}
+
+
+.category img {
+    max-width: 100%;
+   
+    object-fit: cover;
+}
+
+
+.category h4 {
+    margin-bottom: 10px;
+    font-family:  "Zodiak";
+}
+
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 80px;
+    background: #efe6c8;
+}
+
+
+.about-text {
+    max-width: 400px;
+}
+
+
+.about-text h2 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-family: "Zodiak";
+    font-weight: bold;
+        line-height: 65px;
+}
+
+.about p{
+    font-size: 24px;
+}
+.about-img img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+
+
+.gallery {
+    padding: 80px;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+
+.gallery h2 {
+    margin-bottom: 40px;
+    font-size: 48px;
+    text-align: left;
+    font-family:  "Zodiak";
+}
+
+
+.gallery-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.gallery-grid img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+.gallery-caption {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #555;
+    text-align: right;
+    font-family: "Be Vietnam";
+    width: 30%;
+    float: right;
+    font-weight: italic;
+}
+
+
+
+.contact {
+    padding: 80px;
+    background: #e7e7e7;
+}
+
+.footer-text{
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.contact h2 {
+    font-size: 96px;
+    margin-bottom: 10px;
+    width: 30%;
+    font-family: "Zodiak";
+}
+.mt-4{
+    margin-top: 4%;
+}
+
+.arrow-design{
+font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    background: #000;
+    color: #fff;
+    border-radius: 57%;
+    padding: 6px 6px;
+    margin-left: 10px;
+    width: 59px;
+    height: 47px;
+
+}
+
+.email {
+    margin-top: 20px;
+    font-weight: 500;
+    margin-left: 35%;
+     font-family: "Be Vietnam";
+}
+
+.feature {
+    background-image: url("images/frame_41.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 80px;
+    min-height: 1107px;
+}
+
+.feature-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* gap: 40px; */
+    margin-left: 8%;
+    margin-top: 20%;
+}
+
+.photography1 img{
+    width: 24%;
+
+}
+ 
+.category2{
+    width: 25%;
+}
+.gallery-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.image1 {
+    height: 527px;
+}
+
+.image3 {
+    height: 628px;
+}
+
+.about {
+    position: relative;
+}
+
+.about h4 {
+    background-color: #efe6c8;
+    position: absolute;
+    width: 41%;
+    font-size: 24px;
+    font-weight: 300;
+    left: 28%;
+    top: 76%;
+    font-family: cursive;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.about-img {
+    width: 300px;
+    height: 350px;
+}
+
+.mt-2 {
+    margin-top: 12px;
+}
+
+.feature-card h2 {
+    position: absolute;
+    top: 822px;
+    font-family:Verdana, Geneva, Tahoma, BirthStone sans-serif;
+    font-size: 122px;
+    left: 20px;
+    z-index: 999;
+    font-weight: 500;
+}
+
+.contact .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -61px;
+}

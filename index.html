@@ -1,32 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rakshita Developer | Home</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakshita Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
+
 <body>
 
-<header>
-<h1>Rakshita Developer</h1>
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="projects.html">Projects</a>
-<a href="contact.html">Contact</a>
-</nav>
-</header>
+    <!-- HERO SECTION -->
 
-<section class="hero">
-<h2>Welcome to My Portfolio</h2>
-<p>I am a passionate web developer building modern websites.</p>
-<a class="btn" href="projects.html">View My Work</a>
-</section>
+    <section class="hero">
 
-<footer>
-<p>© 2026 Rakshita Developer</p>
-</footer>
+        <nav class="navbar">
+
+
+            <ul>
+                <li>RAKSHITA SINGH</li>
+                <li>CINEMATOGRAPHER</li>
+                <li>FILMMAKER</li>
+                <li>MUMBAI, INDIA</li>
+            </ul>
+
+        </nav>
+
+        <div class="hero-text">
+
+            <h1>Hi, I am Rakshita, and I’m <br><span style="font-size: 24px;
+    font-weight: 500;
+    font-family: 'Be vietnam';">not just</span> <br> a Filmmaker.</h1>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURE VIDEO SECTION -->
+
+    <section class="feature">
+
+        <div class="feature-container">
+
+
+
+            <div class="feature-card">
+
+                <h2>Mrijula Thinks</h2>
+
+                <h4>Short Documentary</h4>
+
+                <p class="mt-2">
+                    In a quiet corner of Majuli lives Mrijula — a woman whose way of seeing the world feels simple, yet
+                    deeply profound. Her thoughts on fear, love,
+                    and the self aren’t academic; they’re lived, honest, and powerful enough to shift something in you.
+                </p>
+
+                <p class="mt-2">
+                    As I listened to her, something in me began to change. This film follows Mrijula’s philosophy — and
+                    my own quiet journey of facing fear and seeing
+                    life differently through her eyes. Watch the documentary
+                </p>
+
+                <button>Read the full screenplay <span class="arrow-design">&rarr;</span></button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CATEGORY SECTION -->
+
+    <section class="categories">
+       <ul class="border-bottom">
+    <li><h4 data-target="advertisement">ADVERTISEMENT</h4></li>
+    <li><h4 data-target="nonfiction">NON-FICTION</h4></li>
+    <li><h4 data-target="fiction">FICTION</h4></li>
+    <li><h4 data-target="photography">PHOTOGRAPHY</h4></li>
+</ul>
+
+
+        <div class="category category1" id="advertisement">
+            <div class="d-flex">
+                <img src="images/Frame_130.png">
+                <img src="images/Frame_131.png">
+                <img src="images/Frame_132.png">
+            </div>
+        </div>
+
+
+        <div class="category category2" id="nonfiction">
+            <img src="images/Frame_138.png">
+        </div>
+
+
+        <div class="category category3" id="fiction">
+            <div class="d-flex">
+                <img src="images/Frame_139.png">
+                <img src="images/Frame_23.png">
+                <img src="images/Frame_24.png">
+            </div>
+        </div>
+
+
+        <div class="category category4" id="photography">
+            <div class="d-flex photography1  mb-2">
+                <img src="images/Frame_27.png">
+                <img src="images/Frame_28.png">
+                <img src="images/Frame_29.png">
+                <img src="images/Frame_31.png">
+            </div>
+             <div class="d-flex photography1 mb-2">
+                <img src="images/Frame_32.png">
+                <img src="images/Frame_33.png">
+                <img src="images/Frame_34.png">
+                <img src="images/Frame_35.png">
+            </div>
+           <div class="d-flex photography1  mb-2">
+                <img src="images/Frame_36.png">
+                <img src="images/Frame_37.png">
+
+                <img src="images/Frame_39.png">
+                <img src="images/Frame_40.png">
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about">
+
+        <div class="about-text">
+
+            <h2>Rakshita <br> Singh</h2>
+
+            <p>
+                I started my filmmaking journey with curiosity and creativity.
+                My work explores storytelling, emotion and visual narratives.
+            </p>
+
+            <p>
+                Through short films, photography and experimental videos
+                I try to capture everyday stories and meaningful moments.
+            </p>
+
+            <h4>Art can’t bring any change, but it can give birth to a thought in the mind of the audience. That’s all
+                that matters.</h4>
+
+        </div>
+
+        <div class="about-img">
+
+            <img src="images/Frame_133.png">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- GALLERY -->
+
+    <section class="gallery">
+
+        <h2>An Archive of my <br> Creative Experiments</h2>
+
+        <div class="gallery-grid">
+            <div class="image1"><img src="images/Frame_136.png"></div>
+            <div class="image2"><img src="images/Frame_135.png"></div>
+            <div class="image3"><img src="images/Frame_137.png"></div>
+        </div>
+
+        <p class="gallery-caption">
+            A selection of artworks and experiments spanning mixed
+            mediums and visual storytelling.
+        </p>
+
+    </section>
+
+
+
+    <!-- CONTACT -->
+
+    <section class="contact">
+        <div class="footer-text">
+            <h2>Let’s Talk...</h2>
+
+            <p style="font-size: 32px;">And create some art together</p>
+        </div>
+        <p class="email">hello@rakshita.com</p>
+        <p class="email">+91 8802083114</p>
+        <nav class="navbar mt-4">
+
+
+            <ul>
+                <li>RAKSHITA SINGH</li>
+                <li>CINEMATOGRAPHER</li>
+                <li>FILMMAKER</li>
+                <li>&#169;Copyright Rakshita Singh 2025</li>
+            </ul>
+
+        </nav>
+    </section>
+
+    <script>
+
+      $(document).ready(function(){
+
+// default show advertisement
+$(".category").hide();
+$("#advertisement").show();
+
+// default active menu
+$('.categories h4[data-target="advertisement"]').addClass("active");
+
+$(".categories h4").click(function(){
+
+var id = $(this).data("target");
+
+// hide all categories
+$(".category").hide();
+
+// show selected
+$("#"+id).show();
+
+// remove active from all
+$(".categories h4").removeClass("active");
+
+// add active to clicked
+$(this).addClass("active");
+
+});
+
+$(".photography1 img").hover(function(){
+
+var imgSrc = $(this).attr("src");
+
+$("#popup-img").attr("src", imgSrc);
+
+$(".image-popup").fadeIn();
+
+}, function(){
+
+$(".image-popup").fadeOut();
+
+});
+
+
+});
+
+    </script>
+
+
+
+
+
 
 </body>
+
 </html>
