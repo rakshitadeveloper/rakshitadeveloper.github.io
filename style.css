@@ -11,9 +11,9 @@ body {
     color: #222;
 }
 
-.navbar ul li{
+.navbar ul li {
     font-size: 16px;
-     font-family: "Be Vietnam";
+    font-family: "Be Vietnam";
 }
 
 .hero {
@@ -30,14 +30,16 @@ body {
     margin-bottom: 120px;
 }
 
-p{
+p {
     font-size: 16px;
     font-family: "Be Vietnam";
 }
-h4{
+
+h4 {
     font-size: 18px;
     font-family: "Be Vietnam";
 }
+
 .navbar ul {
     display: flex;
     /* gap: 30px; */
@@ -87,7 +89,7 @@ h4{
 .feature-card h2 {
     color: #e7cf77;
     margin-bottom: 10px;
-    font-family:  "Zodiak";
+    font-family: "Zodiak";
 }
 
 
@@ -104,83 +106,95 @@ h4{
 
 
 
-.categories ul{
+.categories ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
 }
+
 .categories ul li {
     width: 25%;
     text-align: center;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.category{
-padding:20px;
-border-radius:10px;
-background:#f3f3f3;
-cursor:pointer;
-text-align:center;
+
+.category {
+    padding: 20px;
+    border-radius: 10px;
+    background: #f3f3f3;
+    cursor: pointer;
+    text-align: center;
 }
-.categories h4{
-cursor:pointer;
-padding-bottom:6px;
+
+.categories h4 {
+    cursor: pointer;
+    padding-bottom: 6px;
 }
-.photography1 img{
-width:24%;
-transition: transform 0.4s ease;
-cursor:pointer;
-position:relative;
-z-index:1;
+
+.photography1 img {
+    width: 24%;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
 }
-.mb-2{
-    margin-bottom:10px;
+
+.mb-2 {
+    margin-bottom: 10px;
 }
-.photography1 img:hover{
-transform: scale(1.5);
-z-index:10;
-box-shadow:0 10px 25px rgba(0,0,0,0.5);
+
+.photography1 img:hover {
+    transform: scale(1.5);
+    z-index: 10;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
-.categories h4.active{
-border-bottom:3px solid #000;
+
+.categories h4.active {
+    border-bottom: 3px solid #000;
 }
-.categories{
+
+.categories {
     background: #FDEEAA;
 }
-.border-bottom{
-    border-bottom:1px solid #000;
+
+.border-bottom {
+    border-bottom: 1px solid #000;
 }
+
 /* Hide categories initially */
 
-.category{
-display:none;
-background: #FDEEAA;
+.category {
+    display: none;
+    background: #FDEEAA;
 }
-#advertisement{
-display:block;
+
+#advertisement {
+    display: block;
 }
-.categories h4{
-cursor:pointer;
-margin-top:15px;
-font-size: 28px;
+
+.categories h4 {
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 28px;
 }
 
 
 .category img {
     max-width: 100%;
-   
+
     object-fit: cover;
 }
 
 
 .category h4 {
     margin-bottom: 10px;
-    font-family:  "Zodiak";
+    font-family: "Zodiak";
 }
 
 
@@ -206,12 +220,13 @@ font-size: 28px;
     text-align: right;
     font-family: "Zodiak";
     font-weight: bold;
-        line-height: 65px;
+    line-height: 65px;
 }
 
-.about p{
+.about p {
     font-size: 24px;
 }
+
 .about-img img {
     width: 300px;
     border-radius: 5px;
@@ -230,7 +245,7 @@ font-size: 28px;
     margin-bottom: 40px;
     font-size: 48px;
     text-align: left;
-    font-family:  "Zodiak";
+    font-family: "Zodiak";
 }
 
 
@@ -266,7 +281,7 @@ font-size: 28px;
     background: #e7e7e7;
 }
 
-.footer-text{
+.footer-text {
     display: flex;
     align-items: baseline;
     width: 100%;
@@ -280,12 +295,13 @@ font-size: 28px;
     width: 30%;
     font-family: "Zodiak";
 }
-.mt-4{
+
+.mt-4 {
     margin-top: 4%;
 }
 
-.arrow-design{
-font-size: 20px;
+.arrow-design {
+    font-size: 20px;
     text-align: center;
     font-weight: 600;
     background: #000;
@@ -302,7 +318,7 @@ font-size: 20px;
     margin-top: 20px;
     font-weight: 500;
     margin-left: 35%;
-     font-family: "Be Vietnam";
+    font-family: "Be Vietnam";
 }
 
 .feature {
@@ -324,14 +340,15 @@ font-size: 20px;
     margin-top: 20%;
 }
 
-.photography1 img{
+.photography1 img {
     width: 24%;
 
 }
- 
-.category2{
+
+.category2 {
     width: 25%;
 }
+
 .gallery-grid img {
     width: 100%;
     height: 100%;
@@ -386,7 +403,7 @@ font-size: 20px;
 .feature-card h2 {
     position: absolute;
     top: 822px;
-    font-family:Verdana, Geneva, Tahoma, BirthStone sans-serif;
+    font-family: Verdana, Geneva, Tahoma, BirthStone sans-serif;
     font-size: 122px;
     left: 20px;
     z-index: 999;
@@ -398,4 +415,1039 @@ font-size: 20px;
     justify-content: space-between;
     align-items: center;
     margin-bottom: -61px;
+}
+
+@media(max-width:1280px) {
+    .hero {
+        padding: 12px 7px;
+    }
+
+    .navbar ul li {
+        font-size: 23px;
+
+    }
+
+    .hero-text h1 {
+        font-size: 47px;
+        padding: 0px 320px;
+    }
+
+    .hero {
+        height: 286px;
+    }
+
+    .hero-text h1 span {
+        font-size: 26px !important;
+    }
+
+    .navbar {
+        margin-bottom: 86px;
+    }
+
+    .feature-container {
+        margin-left: 3%;
+        margin-top: 0%;
+    }
+
+    .feature-card {
+        padding: 10px;
+        max-width: 429px;
+        margin: 239px 45px 46px;
+    }
+
+    .feature-card h2 {
+        top: 492px;
+        font-size: 36px;
+        left: 61px;
+    }
+
+    h4 {
+        font-size: 23px;
+        font-family: "Be Vietnam";
+    }
+
+    .mt-2 {
+        margin-top: 12px;
+    }
+
+    p {
+        font-size: 23px;
+        font-family: "Be Vietnam";
+    }
+
+    .feature-card button {
+        margin-top: 15px;
+        padding: 13px 21px;
+        border: none;
+        background: white;
+        cursor: pointer;
+        border-radius: 20px;
+        font-family: "Be Vietnam";
+        font-size: 23px;
+    }
+
+    .categories h4 {
+        margin-top: 15px;
+        font-size: 23px;
+    }
+
+    .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .category img {
+        max-width: 100%;
+        object-fit: cover;
+        width: 49%;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 33px;
+        background: #efe6c8;
+    }
+
+    .about-text {
+        max-width: 360px;
+    }
+
+    .about-text h2 {
+        font-size: 52px;
+        margin-bottom: 20px;
+        text-align: right;
+        font-family: "Zodiak";
+        font-weight: bold;
+        line-height: 45px;
+    }
+
+    .about p {
+        font-size: 23px;
+        text-align: right;
+    }
+
+    .about-img {
+        width: 629px;
+        height: 281px;
+    }
+
+    .about h4 {
+        background-color: #efe6c8;
+        position: absolute;
+        width: 68%;
+        font-size: 23px;
+        font-weight: 300;
+        left: 23%;
+        top: 84%;
+        font-family: cursive;
+    }
+
+    .image1 {
+        /* height: 234px; */
+        width: 100%;
+    }
+
+    .gallery-grid img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .image3 {
+        height: auto;
+    }
+
+    .gallery-caption {
+        margin-top: 7px;
+        font-size: 28px;
+        color: #555;
+        text-align: right;
+        width: 71%;
+        float: right;
+        font-weight: 400;
+    }
+
+    .contact {
+        padding: 13px 30px;
+        background: #e7e7e7;
+        margin-top: 40px;
+    }
+
+    .contact h2 {
+        font-size: 54px;
+        margin-bottom: 10px;
+        width: 23%;
+    }
+
+    .footer-text p {
+        font-size: 29px !important;
+    }
+
+    .email {
+        margin-top: 12px;
+        font-weight: 500;
+        margin-left: 25%;
+    }
+
+    .contact .navbar {
+        margin-bottom: 0px;
+    }
+
+    .gallery {
+        padding: 32px;
+    }
+
+    .gallery h2 {
+        margin-bottom: 40px;
+        font-size: 40px;
+    }
+
+    .image1 {
+        height: auto;
+    }
+
+    .gallery-grid .image3 img {
+        height: 557px;
+    }
+
+    .feature {
+        padding: 0px;
+        min-height: 369px;
+        background-image: url(images/frame_41.jpeg);
+        background-size: cover;
+        background-position: inherit;
+        background-repeat: repeat-y;
+    }
+
+}
+
+@media(max-width:1024px) {
+    .hero {
+        padding: 12px 7px;
+    }
+
+    .navbar ul li {
+        font-size: 16px;
+
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+        padding: 8px 122px;
+    }
+
+    .hero {
+        height: 286px;
+    }
+
+    .hero-text h1 span {
+        font-size: 15px !important;
+    }
+
+    .navbar {
+        margin-bottom: 86px;
+    }
+
+    .feature-container {
+        margin-left: 3%;
+        margin-top: 0%;
+    }
+
+    .feature-card {
+        padding: 10px;
+        max-width: 359px;
+        margin: 171px 0px 10px;
+    }
+
+    .feature-card h2 {
+        top: 435px;
+        font-size: 29px;
+        left: 6px;
+    }
+
+    h4 {
+        font-size: 16px;
+        font-family: "Be Vietnam";
+    }
+
+    .mt-2 {
+        margin-top: 12px;
+    }
+
+    p {
+        font-size: 19px;
+        font-family: "Be Vietnam";
+    }
+
+    .feature-card button {
+        margin-top: 15px;
+        padding: 13px 21px;
+        border: none;
+        background: white;
+        cursor: pointer;
+        border-radius: 20px;
+        font-family: "Be Vietnam";
+        font-size: 15px;
+    }
+
+    .categories h4 {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .category img {
+        max-width: 100%;
+        object-fit: cover;
+        width: 49%;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 33px;
+        background: #efe6c8;
+    }
+
+    .about-text {
+        max-width: 360px;
+    }
+
+    .about-text h2 {
+        font-size: 46px;
+        margin-bottom: 20px;
+        text-align: right;
+        font-family: "Zodiak";
+        font-weight: bold;
+        line-height: 45px;
+    }
+
+    .about p {
+        font-size: 21px;
+        text-align: right;
+    }
+
+    .about-img {
+        width: 629px;
+        height: 281px;
+    }
+
+    .about h4 {
+        background-color: #efe6c8;
+        position: absolute;
+        width: 79%;
+        font-size: 21px;
+        font-weight: 300;
+        left: 9%;
+        top: 79%;
+        font-family: cursive;
+    }
+
+    .image1 {
+        /* height: 234px; */
+        width: 100%;
+    }
+
+    .gallery-grid img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .image3 {
+        height: auto;
+    }
+
+    .gallery-caption {
+        margin-top: 7px;
+        font-size: 27px;
+        color: #555;
+        text-align: right;
+        width: 97%;
+        float: right;
+        font-weight: italic;
+    }
+
+    .contact {
+        padding: 13px 30px;
+        background: #e7e7e7;
+        margin-top: 40px;
+    }
+
+    .contact h2 {
+        font-size: 54px;
+        margin-bottom: 10px;
+        width: 33%;
+    }
+
+    .footer-text p {
+        font-size: 29px !important;
+    }
+
+    .email {
+        margin-top: 12px;
+        font-weight: 500;
+        margin-left: 13%;
+    }
+
+    .contact .navbar {
+        margin-bottom: 0px;
+    }
+
+    .gallery {
+        padding: 32px;
+    }
+
+    .gallery h2 {
+        margin-bottom: 40px;
+        font-size: 40px;
+    }
+
+    .image1 {
+        height: auto;
+    }
+
+    .gallery-grid .image3 img {
+        height: 442px;
+    }
+
+    .feature {
+        padding: 0px;
+        min-height: 369px;
+        background-image: url(images/frame_41.jpeg);
+        background-size: cover;
+        background-position: inherit;
+        background-repeat: repeat-y;
+    }
+
+}
+
+@media(max-width:860px) {
+    .hero {
+        padding: 12px 7px;
+    }
+
+    .navbar ul li {
+        font-size: 16px;
+
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+        padding: 8px 122px;
+    }
+
+    .hero {
+        height: 286px;
+    }
+
+    .hero-text h1 span {
+        font-size: 15px !important;
+    }
+
+    .navbar {
+        margin-bottom: 86px;
+    }
+
+    .feature-container {
+        margin-left: 3%;
+        margin-top: 0%;
+    }
+
+    .feature-card {
+        padding: 10px;
+        max-width: 359px;
+        margin: 171px 0px 10px;
+    }
+
+    .feature-card h2 {
+        top: 435px;
+        font-size: 29px;
+        left: 6px;
+    }
+
+    h4 {
+        font-size: 16px;
+        font-family: "Be Vietnam";
+    }
+
+    .mt-2 {
+        margin-top: 12px;
+    }
+
+    p {
+        font-size: 19px;
+        font-family: "Be Vietnam";
+    }
+
+    .feature-card button {
+        margin-top: 15px;
+        padding: 13px 21px;
+        border: none;
+        background: white;
+        cursor: pointer;
+        border-radius: 20px;
+        font-family: "Be Vietnam";
+        font-size: 15px;
+    }
+
+    .categories h4 {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .category img {
+        max-width: 100%;
+        object-fit: cover;
+        width: 49%;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 33px;
+        background: #efe6c8;
+    }
+
+    .about-text {
+        max-width: 360px;
+    }
+
+    .about-text h2 {
+        font-size: 46px;
+        margin-bottom: 20px;
+        text-align: right;
+        font-family: "Zodiak";
+        font-weight: bold;
+        line-height: 45px;
+    }
+
+    .about p {
+        font-size: 17px;
+        text-align: right;
+    }
+
+    .about-img {
+        width: 629px;
+        height: 281px;
+    }
+
+    .about h4 {
+        background-color: #efe6c8;
+        position: absolute;
+        width: 79%;
+        font-size: 15px;
+        font-weight: 300;
+        left: 9%;
+        top: 79%;
+        font-family: cursive;
+    }
+
+    .image1 {
+        /* height: 234px; */
+        width: 100%;
+    }
+
+    .gallery-grid img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .image3 {
+        height: auto;
+    }
+
+    .gallery-caption {
+        margin-top: 7px;
+        font-size: 20px;
+        color: #555;
+        text-align: right;
+        width: 97%;
+        float: right;
+        font-weight: italic;
+    }
+
+    .contact {
+        padding: 13px 30px;
+        background: #e7e7e7;
+        margin-top: 34px;
+    }
+
+    .contact h2 {
+        font-size: 54px;
+        margin-bottom: 10px;
+        width: 40%;
+    }
+
+    .footer-text p {
+        font-size: 21px !important;
+    }
+
+    .email {
+        margin-top: 12px;
+        font-weight: 500;
+        margin-left: 13%;
+    }
+
+    .contact .navbar {
+        margin-bottom: 0px;
+    }
+
+    .gallery {
+        padding: 32px;
+    }
+
+    .gallery h2 {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+
+    .image1 {
+        height: auto;
+    }
+
+    .gallery-grid .image3 img {
+        height: 328px;
+    }
+
+    .feature {
+        padding: 0px;
+        min-height: 369px;
+        background-image: url(images/frame_41.jpeg);
+        background-size: cover;
+        background-position: inherit;
+        background-repeat: repeat-y;
+    }
+
+}
+
+@media(max-width:768px) {
+    .hero {
+        padding: 12px 7px;
+    }
+
+    .navbar ul li {
+        font-size: 16px;
+
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+        padding: 8px 122px;
+    }
+
+    .hero {
+        height: 286px;
+    }
+
+    .hero-text h1 span {
+        font-size: 15px !important;
+    }
+
+    .navbar {
+        margin-bottom: 86px;
+    }
+
+    .feature-container {
+        margin-left: 3%;
+        margin-top: 0%;
+    }
+
+    .feature-card {
+        padding: 10px;
+        max-width: 359px;
+        margin: 171px 0px 10px;
+    }
+
+    .feature-card h2 {
+        top: 435px;
+        font-size: 29px;
+        left: 6px;
+    }
+
+    h4 {
+        font-size: 16px;
+        font-family: "Be Vietnam";
+    }
+
+    .mt-2 {
+        margin-top: 12px;
+    }
+
+    p {
+        font-size: 19px;
+        font-family: "Be Vietnam";
+    }
+
+    .feature-card button {
+        margin-top: 15px;
+        padding: 13px 21px;
+        border: none;
+        background: white;
+        cursor: pointer;
+        border-radius: 20px;
+        font-family: "Be Vietnam";
+        font-size: 15px;
+    }
+
+    .categories h4 {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .category img {
+        max-width: 100%;
+        object-fit: cover;
+        width: 49%;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 33px;
+        background: #efe6c8;
+    }
+
+    .about-text {
+        max-width: 360px;
+    }
+
+    .about-text h2 {
+        font-size: 46px;
+        margin-bottom: 20px;
+        text-align: right;
+        font-family: "Zodiak";
+        font-weight: bold;
+        line-height: 45px;
+    }
+
+    .about p {
+        font-size: 17px;
+        text-align: right;
+    }
+
+    .about-img {
+        width: 629px;
+        height: 281px;
+    }
+
+    .about h4 {
+        background-color: #efe6c8;
+        position: absolute;
+        width: 79%;
+        font-size: 15px;
+        font-weight: 300;
+        left: 9%;
+        top: 79%;
+        font-family: cursive;
+    }
+
+    .image1 {
+        /* height: 234px; */
+        width: 100%;
+    }
+
+    .gallery-grid img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .image3 {
+        height: auto;
+    }
+
+    .gallery-caption {
+        margin-top: 7px;
+        font-size: 20px;
+        color: #555;
+        text-align: right;
+        width: 97%;
+        float: right;
+        font-weight: italic;
+    }
+
+    .contact {
+        padding: 13px 30px;
+        background: #e7e7e7;
+        margin-top: 34px;
+    }
+
+    .contact h2 {
+        font-size: 54px;
+        margin-bottom: 10px;
+        width: 40%;
+    }
+
+    .footer-text p {
+        font-size: 21px !important;
+    }
+
+    .email {
+        margin-top: 12px;
+        font-weight: 500;
+        margin-left: 13%;
+    }
+
+    .contact .navbar {
+        margin-bottom: 0px;
+    }
+
+    .gallery {
+        padding: 32px;
+    }
+
+    .gallery h2 {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+
+    .image1 {
+        height: auto;
+    }
+
+    .gallery-grid .image3 img {
+        height: 328px;
+    }
+
+    .feature {
+        padding: 0px;
+        min-height: 369px;
+        background-image: url(images/frame_41.jpeg);
+        background-size: cover;
+        background-position: inherit;
+        background-repeat: repeat-y;
+    }
+
+}
+
+@media(max-width:576px) {
+    .hero {
+        padding: 12px 7px;
+    }
+
+    .navbar ul li {
+        font-size: 10px;
+
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+        padding: 10px 50px;
+    }
+
+    .hero {
+        height: 286px;
+    }
+
+    .hero-text h1 span {
+        font-size: 15px !important;
+    }
+
+    .navbar {
+        margin-bottom: 86px;
+    }
+
+    .feature-container {
+        margin-left: 3%;
+        margin-top: 0%;
+    }
+
+    .feature-card {
+        padding: 10px;
+        max-width: 254px;
+        margin: 171px 0px 10px;
+    }
+
+    .feature-card h2 {
+        top: 435px;
+        font-size: 29px;
+        left: 6px;
+    }
+
+    h4 {
+        font-size: 16px;
+        font-family: "Be Vietnam";
+    }
+
+    .mt-2 {
+        margin-top: 12px;
+    }
+
+    p {
+        font-size: 12px;
+        font-family: "Be Vietnam";
+    }
+
+    .feature-card button {
+        margin-top: 15px;
+        padding: 13px 21px;
+        border: none;
+        background: white;
+        cursor: pointer;
+        border-radius: 20px;
+        font-family: "Be Vietnam";
+        font-size: 15px;
+    }
+
+    .categories h4 {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .category img {
+        max-width: 100%;
+        object-fit: cover;
+        width: 49%;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 33px;
+        background: #efe6c8;
+    }
+
+    .about-text {
+        max-width: 360px;
+    }
+
+    .about-text h2 {
+        font-size: 46px;
+        margin-bottom: 20px;
+        text-align: right;
+        font-family: "Zodiak";
+        font-weight: bold;
+        line-height: 45px;
+    }
+
+    .about p {
+        font-size: 17px;
+        text-align: right;
+    }
+
+    .about-img {
+        width: 629px;
+        height: 281px;
+    }
+
+    .about h4 {
+        background-color: #efe6c8;
+        position: absolute;
+        width: 79%;
+        font-size: 15px;
+        font-weight: 300;
+        left: 9%;
+        top: 79%;
+        font-family: cursive;
+    }
+
+    .image1 {
+        /* height: 234px; */
+        width: 100%;
+    }
+
+    .gallery-grid img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .image3 {
+        height: auto;
+    }
+
+    .gallery-caption {
+        margin-top: 7px;
+        font-size: 20px;
+        color: #555;
+        text-align: right;
+        width: 97%;
+        float: right;
+        font-weight: italic;
+    }
+
+    .contact {
+        padding: 13px 30px;
+        background: #e7e7e7;
+        margin-top: 34px;
+    }
+
+    .contact h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+        width: 49%;
+    }
+
+    .footer-text p {
+        font-size: 21px !important;
+    }
+
+    .email {
+        margin-top: 12px;
+        font-weight: 500;
+        margin-left: 1%;
+    }
+
+    .contact .navbar {
+        margin-bottom: 0px;
+    }
+
+    .gallery {
+        padding: 32px;
+    }
+
+    .gallery h2 {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+
+    .image1 {
+        height: auto;
+    }
+
+    .gallery-grid .image3 img {
+        height: 232px;
+    }
+
+    .feature {
+        padding: 0px;
+        min-height: 369px;
+        background-image: url(images/frame_41.jpeg);
+        background-size: cover;
+        background-position: inherit;
+        background-repeat: repeat-y;
+    }
+
 }
